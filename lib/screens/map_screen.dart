@@ -4,11 +4,9 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import '../models/place.dart';
 
-const MAPBOX_API_KEY =
-    'https://api.mapbox.com/styles/v1/mylmz/cl6owzo47003415qhret2yjks/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibXlsbXoiLCJhIjoiY2w2b3dzejdoMDBnOTNqazZjangzM3MycSJ9.HdazK2RtDlYDbLk53L7HPw';
+const MAPBOX_API_KEY = 'Your Mapbox API Key Begins With https';
 
-const MAPBOX_USER =
-    'pk.eyJ1IjoibXlsbXoiLCJhIjoiY2w2b3dzejdoMDBnOTNqazZjangzM3MycSJ9.HdazK2RtDlYDbLk53L7HPw';
+const MAPBOX_USER = 'Your Mapbox User Token Begins With pk...';
 
 class MapScreen extends StatefulWidget {
   final PlaceLocation initialLocation;
